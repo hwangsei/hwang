@@ -1,0 +1,140 @@
+<!DOCTYPE html>	
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title> 층간소음 </title>
+	<link rel="stylesheet" href="../css/reset.css"/>
+	<link rel="stylesheet" href="../css/about.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sly/1.6.1/sly.min.js"></script>
+</head>
+<body>
+
+<!-- s main -->
+
+	<div id="main_bg">
+
+		<header>
+			<nav>
+		        <ul>
+		            <li id="logo"><a href="about.html"> <img src="../images/logo.jpg"> </a></li>
+
+		            <li><a href="about.html" id="about">층간소음이란</a></li>
+		            <li><a href="faq.html" id="faq">갈등·FAQ</a></li>
+		            <li><a href="solution.html" id="solution">예방·대응방법</a></li>
+		        </ul>    
+	    	</nav>
+		</header>
+
+
+		<div id="ment_box">보이지 않는 갈등, 층간소음</div>
+
+		<div id="arrow"></div>
+
+	</div>
+
+
+<!-- e main -->
+
+<!-- s content_01 -->
+
+	<div id="content_01">
+		
+		<p class="ment">이 정도는 괜찮지 않나요?</p>
+
+		<p class="explain">'이 정도는 괜찮겠지.' '이 시간에는 괜찮을 거야.' 라는 개인의 주관적인 생각으로<br> 인해 발생되기 시작하는 층간소음은, 과거 단독주택 위주의 생활에서 아파트 등<br> 공동주택으로 주거 환경이 일반화되면서 점차 사회적인 문제가 되었습니다.</p>
+
+	</div>
+	
+<!-- e content_01 -->
+
+
+<!-- s content_02-1 -->
+
+	<div id="content_02">
+		
+		<p class="ment1">층간소음의 원인</p>
+
+		<p class="explain1">층간소음의 주요 원인으로는 아이 뛰는 소리, 발걸음 소리, 망치질 소리, 가구 끄는 소리,<br> 문 여닫는 소리 등과 같은 바닥충격음이 82.8%를 차지하였으며, 그중 아이가 뛰는<br> 소리나 성인의 발걸음 소리가 70.6%로 가장 많이 차지하였습니다.</p>
+
+		<div id="graph"></div>
+	</div>
+
+<!-- e content_02-1 -->
+
+<!-- s content_02-2 -->
+
+	<div id="container">
+		<p class="ment2">층간소음이 미치는 영향</p>
+
+		<p class="explain2">층간소음은 크기에 따라 인체에 미치는 영향이 달라집니다.</p>
+
+		<div class="frame">
+			<ul class="slidee">
+				<img src="../images/pink_box.jpg" class="pink_box">
+				<img src="../images/slide_01.jpg" class="box">
+				<img src="../images/slide_02.jpg" class="box">
+				<img src="../images/slide_03.jpg" class="box">
+				<img src="../images/slide_04.jpg" class="box">
+				<img src="../images/slide_05.jpg" class="box">
+				<img src="../images/slide_06.jpg" class="box">
+				<img src="../images/slide_07.jpg" class="box">
+				<img src="../images/slide_08.jpg" class="box" >
+				<img src="../images/slide_08.jpg" class="box" id="hideimg">
+			</ul>
+		</div>
+
+	</div>
+
+
+<script>
+    var sly = new Sly($('.frame'), {
+        horizontal: 1, // required
+        itemNav: 'basic', // required
+        smart: 1,
+        mouseDragging: 1,
+        touchDragging: 1,
+        releaseSwing: 1,
+        speed: 1,
+        elasticBounds: 1,
+        dragHandle: 1,
+        dynamicHandle: 1,
+        clickBar: 1
+    }, null).init();
+    
+</script>
+
+<!-- e content_02-2 -->
+
+
+<!-- s content_03 -->
+
+	<div class="content_03">
+
+		<video id="video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+	     	<source src="../images/walk.mp4" type="video/mp4">
+	     </video>
+
+	     <div class="ment"><a class="effect" href="faq.html">층간소음 갈등에 대해</a></div>
+
+	</div>
+
+<!-- footer -->
+
+	<div class="footer">
+
+		<div class="logo"><a href="about.html"> <img src="../images/logo.jpg"> </a></div>
+		<p class="text">©2019 New media design show</p>
+
+		<img src="../images/footer_zigzag.png" class="zigzag">
+
+		<p class="facebook">facebook</p>
+		<p class="insta">instagram</p>
+		<p class="twitter">twitter</p>
+
+	</div>
+
+<!-- e footer -->
+
+</body>	
+</html>
